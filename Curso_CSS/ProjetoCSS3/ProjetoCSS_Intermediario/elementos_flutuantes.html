@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+    <style type="text/css">
+        .conteudo{
+            background: blue;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            float: right;
+           
+        }
+        .clear{
+            clear: both; /* limpa o fluxo do elementos FLOAT e assim consegue colocar imagens ou outros elementos*/
+        }
+
+        #pricinpal{
+            border: 5px solid red;
+            background: green;
+        }
+       /* .conteudo1{
+            background: red;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            float: right; elementos flutuantes
+        }*/
+
+/*SEMPRE QUE USA ELEMNTOS FLUTUANTES É NECESSARIO USAR O CLENA POIS PRA LIMPAR O FLUXO DOS ELEMENTOS,
+PODENDO SER BOTH, RIGHT LEFT E NONE(QUE NAO LIMPA NAADA) */
+    </style>
+
+</head>
+<body>
+<div id="pricinpal">
+    <div class="conteudo">Conteudo 1</div>
+    <div class="conteudo">Conteudo 2</div>
+    <div class="conteudo">Conteudo 3</div>
+    <div class="clear"></div>
+</div>
+<!--<p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facere placeat ea obcaecati expedita quaerat esse beatae explicabo aliquid. Fugit, fugiat dolores sint quia voluptas asperiores ex ipsum accusantium delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus praesentium sunt necessitatibus fugiat repellat incidunt commodi amet explicabo facilis, recusandae dolor dignissimos quas quisquam suscipit ducimus eum repudiandae facere!</p> -->
+    
+</body>
+</html>

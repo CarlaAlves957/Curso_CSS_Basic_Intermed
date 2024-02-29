@@ -1,0 +1,41 @@
+/*modelo de caixa
+.conteudo{
+    border: 1px solid red;
+   padding-top: 20px;         ->  PODE SER DEFINIDO PARTE 
+    padding-right:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    padding: 20px 15px 10px 5px;  -> E PODE SER DEFINIDO E APENAS UMA LINHA USANDO APENAS O PADDING RESPEITANDO A LISTA ACIMA NA DEFINIÇÃO DOS PX 
+    o PADDING é usado para conteudo dentro do copor texto 
+
+    padding: 20px 5px;
+
+    margin-top: 20px;
+    margin-right: 20px;     -> o MARGIN pode ser usado tambem como o PADDING e definido tanto as partes coomo apenas uma unica vez
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    margin: 10px;
+
+
+    width: 150px;
+
+}
+.conteudo2{
+
+margin: 50px;
+border: 1px solid red;
+width: 150px;
+}*/
+
+#noticia{
+    background: f9f9f9;
+    border: 1px solid gray;    /* conseguimos controlar os espacamentos com padding e margin*/ 
+    padding: 10px;
+
+}
+h2{
+    border: 1px solid red;
+    margin: 0px;
+}
